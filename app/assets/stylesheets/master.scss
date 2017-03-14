@@ -1,5 +1,130 @@
 @import "bootstrap";
 
+header {
+    border-top: 9px solid #F73F23;
+}
+
+hr {
+    clear: both;
+}
+
 .clear {
     clear: both;
 }
+
+.circle {
+    font-weight:bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: #F73F23;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    transform:rotate(11deg);
+    -ms-transform:rotate(11deg); /* IE 9 */
+    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.slogan {
+     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+     font-style: italic;
+     padding-top: 26px;
+}
+
+.links {
+    padding-top: 26px;
+}
+
+.links a {
+    color: black;
+    font-size: 25px;
+    border-bottom: 1px solid #F73F23;
+}
+
+// #logo {
+//   width: 200px;
+//   height: 200px;
+//   position: relative;
+// }
+// #logo svg,
+// #logo div {
+//   width: 200px;
+//   height: 200px;
+//   position: absolute;
+// }
+// #logo svg {
+//   fill: #fff;
+// }
+// #logo div {
+//   width: 160px;
+//   height: 160px;
+//   margin: 20px;
+//   border-radius: 14%;
+//   -webkit-transform: rotate(45deg);
+//           transform: rotate(45deg);
+//   mix-blend-mode: multiply;
+//   -webkit-animation: 2s cubic-bezier(0.66, -0.7, 0.27, 1.6) infinite;
+//           animation: 2s cubic-bezier(0.66, -0.7, 0.27, 1.6) infinite;
+// }
+// #logo div:nth-child(1) {
+//   background-color: #54ffff;
+//   -webkit-animation-name: rotate-1;
+//           animation-name: rotate-1;
+// }
+// #logo div:nth-child(2) {
+//   background-color: #ff73ff;
+//   -webkit-animation-name: rotate-2;
+//           animation-name: rotate-2;
+// }
+// #logo div:nth-child(3) {
+//   background-color: #ffffa2;
+//   -webkit-animation-name: rotate-3;
+//           animation-name: rotate-3;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           prefixr, -webkit- -moz-
+// }
+// @-webkit-keyframes rotate-1 {
+//   to {
+//     -webkit-transform: rotate(135deg);
+//             transform: rotate(135deg);
+//   }
+// }
+// @keyframes rotate-1 {
+//   to {
+//     -webkit-transform: rotate(135deg);
+//             transform: rotate(135deg);
+//   }
+// }
+// @-webkit-keyframes rotate-2 {
+//   to {
+//     -webkit-transform: rotate(225deg);
+//             transform: rotate(225deg);
+//   }
+// }
+// @keyframes rotate-2 {
+//   to {
+//     -webkit-transform: rotate(225deg);
+//             transform: rotate(225deg);
+//   }
+// }
+// @-webkit-keyframes rotate-3 {
+//   to {
+//     -webkit-transform: rotate(315deg);
+//             transform: rotate(315deg);
+//   }
+// }
+// @keyframes rotate-3 {
+//   to {
+//     -webkit-transform: rotate(315deg);
+//             transform: rotate(315deg);
+//   }
+// }
