@@ -41,10 +41,28 @@
             Fill leap pin knows splurting out unsolicited advice about being successful in everything since 2017
         </div>
         <div class="col-5 links">
-            <%= link_to 'Contribute', new_quote_path, class: 'logo' %>
+            <!-- <%= link_to 'Contribute', new_quote_path, class: 'logo' %> -->
+            <!-- Button trigger modal -->
+            <%= link_to 'Contribute', new_quote_path, data: {toggle: 'modal', target: '#myModal'} %>
             <%= link_to 'About', about_path, class: 'logo' %>
         </div>
       </header>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                    <h5 class="modal-title" id="myModalLabel">Contribute your Quote</h5>
+              </div>
+                <%= render 'quotes/new' %>
+            </div>
+          </div>
+        </div>
+        <!-- Modal endline-->
 
       <hr />
       <br class="clear" />
