@@ -37,13 +37,13 @@
                 </div>
             -->
         </div>
-        <div class="col-4 slogan">
+        <div class="col col-sm-4 hidden-xs-down slogan">
             Fill leap pin knows splurting out unsolicited advice about being successful in everything since 2017
         </div>
-        <div class="col-5 links">
-            <!-- <%= link_to 'Contribute', new_quote_path, class: 'logo' %> -->
+        <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
             <!-- Button trigger modal -->
             <%= link_to 'Contribute', new_quote_path, data: {toggle: 'modal', target: '#myModal'} %>
+                &nbsp;&nbsp;
             <%= link_to 'About', about_path, class: 'logo' %>
         </div>
       </header>
@@ -79,10 +79,10 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-sm-6">
                     <%= link_to 'I need more 💕 right now.', root_path, class: 'next-quote' %>
                 </div>
-                <div class="col-6 footer-blurb">
+                <div class="col-12 col-sm-6 footer-blurb">
                     Proudly built in California with ❤️ by <%= link_to 'Kirby James', 'http://kirbyjames.me/', class: 'next-quote' %>.
                     <br>
                 </div>
