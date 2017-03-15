@@ -8,7 +8,10 @@ class QuotesController < ApplicationController
     end
 
     def create
-        Quote.create(quote_params)
+        @quote = Quote.create(quote_params)
+        if @quote.invalid?
+            flash[:error] = '<strong>Invalid!</strong> Add more from your quote and try submitting again.'
+        end
         redirect_to root_path
     end
 
