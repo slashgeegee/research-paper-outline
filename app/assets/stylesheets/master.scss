@@ -1,6 +1,4 @@
 @import "bootstrap";
-// Font Option:
-// @import url('https://fonts.googleapis.com/css?family=Faster+One');
 
 header {
     border-top: 9px solid #F73F23;
@@ -13,14 +11,12 @@ hr {
 h1 {
     // Option:
     // font-family: 'Faster One', cursive;
-    font-family: 'intro_head_rbase', cursive;
+    font-family: 'intro_rust_gbase_2_line', cursive;
     font-weight: bold;
     font-size: 48px;
 }
 
 h2 {
-    // Option:
-    // font-family: 'Faster One', cursive;
     font-family: 'intro_rust_gbase_2_line', cursive;
 }
 
@@ -62,7 +58,7 @@ h2 {
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #F73F23;
-    font-family: 'intro_head_rbase', cursive;
+    font-family: 'intro_rust_gbase_2_line', cursive;
     font-weight: bold;
 }
 
@@ -81,6 +77,10 @@ h2 {
 
 .logo:hover {
     text-decoration: none;
+}
+
+.about {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 // #logo {
