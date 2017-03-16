@@ -1,24 +1,14 @@
-# README
+# Flippy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A database-powered quote generator that allows user to contribute their own quote/saying.
 
-Things you may want to cover:
+# Tools
 
-* Ruby version
+- Vagrant
+- simple_form gem
+- ssl using puma server
+- heroku postgresql
 
-* System dependencies
+# Link
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://flippy-kirby-fernandez.herokuapp.com
