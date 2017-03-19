@@ -11,6 +11,3 @@ A database-powered quote generator that allows user to contribute their own quot
 - heroku postgresql
 - bootstrap
 
-# Link
-
-https://flippy-kirby-fernandez.herokuapp.com
