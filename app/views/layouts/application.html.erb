@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flippy</title>
+    <title>Research Paper</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -14,11 +14,11 @@
             <%= link_to root_path, class: 'logo' do %>
                 <div class="circle">
                     <br>
-                        fill leap
+                        ENGLISH
                     <br>
-                        pin
+                        1A
                     <br>
-                        knows
+                        6332
                 </div>
             <% end %>
             <!-- LOGO ANIMATION OPTION -->
@@ -38,13 +38,13 @@
             -->
         </div>
         <div class="col col-sm-4 hidden-xs-down slogan">
-            Fill leap pin knows splurting out unsolicited advice about being successful in everything since 2017
+            Analytical Driven Study on Health and Technology.
         </div>
         <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
             <!-- Button trigger modal -->
-            <%= link_to 'Contribute', new_quote_path, data: {toggle: 'modal', target: '#myModal'}, class: 'logo' %>
+            <%= link_to 'ADD WORKS CITED', new_quote_path, data: {toggle: 'modal', target: '#myModal'}, class: 'logo' %>
                 &nbsp;&nbsp;
-            <%= link_to 'About', about_path, class: 'logo' %>
+            <%= link_to 'Outline', about_path, class: 'logo' %>
         </div>
       </header>
 
@@ -56,7 +56,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                    <h5 class="modal-title" id="myModalLabel">Contribute your Quote</h5>
+                    <h5 class="modal-title" id="myModalLabel">Add Works Cited</h5>
               </div>
                 <%= render 'quotes/new' %>
             </div>
@@ -80,10 +80,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6">
-                    <%= link_to 'I need more 💕 right now.', root_path, class: 'next-quote' %>
+                    <%= link_to 'Show m💕re works cited.', root_path, class: 'next-quote' %>
                 </div>
                 <div class="col-12 col-sm-6 footer-blurb">
-                    Proudly built in California with ❤️ by <%= link_to 'Kirby James', 'http://kirbyjames.me/', class: 'next-quote' %>.
+                    Proudly built with ❤️ by <%= link_to 'Kirby James', 'http://kirbyjames.me/', class: 'next-quote' %>.
                     <br>
                 </div>
             </div>
